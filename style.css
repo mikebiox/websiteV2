@@ -40,3 +40,10 @@ textarea.materialize-textarea{
 .input-field .prefix.active {
   color: #4caf50;
 }
+
+#book-carousel {
+height : 450px;
+max-height : 450px;
+margin-top : -120px;
+
+}

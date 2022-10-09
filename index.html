@@ -27,12 +27,28 @@
     </nav>
   </div>
 
+
+  <div class="section green">
+    <div class="container">
+      <div class="row">
+        <div class="carousel" id="book-carousel">
+      <a class="carousel-item" href="https://www.amazon.com/Boy-Binoculars-Connected-Crime-Book-ebook/dp/B0BGFDKVYT"><img src="images/BitB.jpg"></a>
+      <a class="carousel-item" href="https://www.amazon.com/dp/B09LGV9678"><img src="images/CC.jpg"></a>
+      <a class="carousel-item" href="https://www.amazon.com/gp/product/B08R5LB9PZ"><img src="images/CPhD.jpg"></a>
+      <a class="carousel-item" href="https://www.amazon.com/List-11-Connected-Crime/dp/B09187FBC2"><img src="images/TLo11.jpg"></a>
+      <a class="carousel-item" href="https://www.amazon.com/gp/product/B096L5JCQ3"><img src="images/TNaOL.jpg"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
   <!-- hero -->
   <div class="section grey lighten-5">
     <div class="container">
       <div class="container">
         <h3 class="center-align"><strong>The Connected Crime Series</strong></h3>
-        <h5 class="center-align hero_subtitle">A Series of Serious Crime</h5>
+        <h5 class="center-align hero_subtitle">A Series of Serious Crime</h5> 
         <p>The Connected Crime Series takes place within the Brookway District. The district comprises 12 different
           cities, each having its own troubles. The district was riddled with gang-on-gang violence until one person
           brought them all together. Recently, the gang in Kingston has gone high-tech with the help of Doug in
@@ -397,9 +413,17 @@
   </div>
 
   <!-- Compiled and minified JavaScript -->
-  <script
-    src="https://cdn.jsdelivr.net/npm/@materializecss/materialize@1.1.0-alpha/dist/js/materialize.min.js"></script>
 
+<script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+  
+<script src="https://cdn.jsdelivr.net/npm/@materializecss/materialize@1.1.0-alpha/dist/js/materialize.min.js"></script>
+
+  <script>
+$(document).ready(function(){
+      $('#book-carousel').carousel();
+    });
+  </script>
+  
 </body>
 
 </html>
