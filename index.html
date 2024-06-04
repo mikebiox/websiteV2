@@ -4,7 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@materializecss/materialize@1.2.1/dist/css/materialize.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@materializecss/materialize@2.0.3-alpha/dist/css/materialize.min.css">
+
   <link rel="stylesheet" href="/style.css">
   <title>Mike Biocchi</title>
   
@@ -19,12 +20,10 @@
   <div class="navbar-fixed">
     <nav role="navigation" class="green">
       <div class="nav-wrapper container">
-        <a href="#" class="brand-logo hide-on-small-only">Mike Biocchi</a>
-        <ul class="right">
-          <li><a href="/contact">Contact</a></li>
-        </ul>
-        <ul class="right">
-          <li><a href="/security">Security</a></li>
+        <a href="#" class="brand-logo hide-on-med-and-down">Mike Biocchi</a>
+        <ul id="nav-mobile" class="right">
+					<li><a href="/security">Security</a></li>
+					<li><a href="/contact">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -33,14 +32,16 @@
   <div class="section green">
     <div class="container">
       <div class="row">
-        <div class="carousel" id="book-carousel">
-      <a class="carousel-item"  target="_blank" href="https://www.amazon.com/Last-Wedding-Burnaby-Connected-Crime-ebook/dp/B0CGMPG3TZ"><img src="images/lwib.jpg"></a>
-      <a class="carousel-item" target="_blank" href="https://www.amazon.com/Boy-Binoculars-Connected-Crime-Book-ebook/dp/B0BGFDKVYT"><img src="images/BitB.jpg"></a>
-      <a class="carousel-item"  target="_blank" href="https://www.amazon.com/dp/B09LGV9678"><img src="images/CC.jpg"></a>
-      <a class="carousel-item"  target="_blank" href="https://www.amazon.com/gp/product/B08R5LB9PZ"><img src="images/CPhD.jpg"></a>
-      <a class="carousel-item"  target="_blank" href="https://www.amazon.com/List-11-Connected-Crime/dp/B09187FBC2"><img src="images/TLo11.jpg"></a>
-      <a class="carousel-item"  target="_blank" href="https://www.amazon.com/gp/product/B096L5JCQ3"><img src="images/TNaOL.jpg"></a>
-        </div>
+				<div class="col s12 m12">
+	        <div class="carousel" id="book-carousel">
+	      <a class="carousel-item"  target="_blank" href="https://www.amazon.com/Last-Wedding-Burnaby-Connected-Crime-ebook/dp/B0CGMPG3TZ"><img src="images/lwib.jpg"></a>
+	      <a class="carousel-item" target="_blank" href="https://www.amazon.com/Boy-Binoculars-Connected-Crime-Book-ebook/dp/B0BGFDKVYT"><img src="images/BitB.jpg"></a>
+	      <a class="carousel-item"  target="_blank" href="https://www.amazon.com/dp/B09LGV9678"><img src="images/CC.jpg"></a>
+	      <a class="carousel-item"  target="_blank" href="https://www.amazon.com/gp/product/B08R5LB9PZ"><img src="images/CPhD.jpg"></a>
+	      <a class="carousel-item"  target="_blank" href="https://www.amazon.com/List-11-Connected-Crime/dp/B09187FBC2"><img src="images/TLo11.jpg"></a>
+	      <a class="carousel-item"  target="_blank" href="https://www.amazon.com/gp/product/B096L5JCQ3"><img src="images/TNaOL.jpg"></a>
+	        </div>
+				</div>
       </div>
     </div>
   </div>
@@ -58,11 +59,9 @@
         <p>The latest novel is a one-off called <span class="text-bold">Boy in the Binoculars</span>. It still takes place in the Brookway district but it is an isolated story. Abraham, a retired detective, made a promise years ago to the parents of an abducted two-year-old. He’d find him and bring him home. But when Abraham thinks he sees the boy years later, he’ll do anything to confirm that this is the same missing boy even though the evidence says otherwise.</p> 
 
         <p><span class="text-bold">The Connected Crime Series</span> follows many different characters with some crossing over between novels. Explore a world of crime!</p> 
-        
-        <div class="row center-align">
-          <a href="https://www.amazon.com/gp/product/B08R572LKR" class="btn-large green" target="_blank">Get the
-            Books!</a>
-        </div>
+        <center>
+          <a href="https://www.amazon.com/gp/product/B08R572LKR" class="btn-large green rounded waves-effect" target="_blank">Get the Books!</a>
+				</center>
       </div>
     </div>
   </div>
@@ -72,25 +71,20 @@
 	<!-- Last Wedding in Burnaby -->
 	<div class="section">
 		<div class="container">
-			<div class="row">
-
+			<div class="row" style="gap: 20px;">
 				<div class="col s8">
 					<h4>Last Wedding in Burnaby</h4>
 					<h6>What secrets can be found after fifteen years?
 					</h6>
-
 					<p class="hide-on-small-only">Scarlett Brim returns home to Burnaby after fifteen years. She left at seventeen
 						to join a secret agency with the promise of saving lives. Her training repeatedly told her that “you and
 						your past are dead.” But everything changes after the latest mission goes wrong. On top of that, she receives an alert about her
 						mother. </p>
-
 					<p class="hide-on-small-only">Scarlett defies orders and returns home to the city she grew up. But being home
 						is harder than she imagined. She breaks a critical rule in interacting with her past and attends an old
 						friend's wedding. Then everything goes wrong. Scarlett has been trained to trust no one but she'll have to learn to trust again to save her life. </p>
-
 					<p>Last Wedding in Burnaby is an exciting novel with action, mystery, and suspense. It’s a new story that
 						takes place in the Brookway District and is a part of the Connected Crime Series.</p>
-
 				</div>
 
 				<div class="col s4 center-align">
@@ -113,7 +107,7 @@
 	<!-- The Boy in the Binoculars -->
   <div class="section grey lighten-5">
     <div class="container">
-      <div class="row">
+      <div class="row" style="gap: 20px;">
         <div class="col s8">
           <h4>The Boy in the Binoculars</h4>
           <h6>How far would you go to keep a promise?</h6>
@@ -152,7 +146,7 @@
   <!-- Criminal, PhD: Captured Coder -->
   <div class="section">
     <div class="container">
-      <div class="row">
+      <div class="row" style="gap: 20px;">
         <div class="col s8">
           <h4>
             Criminal, PhD: The Captured Coder
@@ -194,7 +188,7 @@
   <!-- The Negotiator at Oak Lake -->
   <div class="section grey lighten-5">
     <div class="container">
-      <div class="row">
+      <div class="row" style="gap: 20px;">
         <div class="col s8">
           <h4>The Negotiator at Oak Lake</h4>
           <h6>Crime must be Negotiated</h6>
@@ -230,7 +224,7 @@
   <!-- The List of 11 -->
   <div class="section">
     <div class="container">
-      <div class="row">
+      <div class="row" style="gap: 20px;">
         <div class="col s8">
           <h4>The List of 11</h4>
           <h6>How far would you go to seek justice for the murder of your daughter?</h6>
@@ -273,7 +267,7 @@
   <!-- Criminal, PhD -->
   <div class="section grey lighten-5">
     <div class="container">
-      <div class="row">
+      <div class="row" style="gap: 20px;">
         <div class="col s8">
           <h4>Criminal, PhD</h4>
           <h6>Crime gets an upgrade!</h6>
@@ -322,7 +316,7 @@
 
   <div class="section white">
     <div class="container">
-      <div class="row">
+      <div class="row" style="gap: 20px;">
         <div class="col s8">
           <h4>Criminal, PhD: Kingston Killer</h4>
           <h6>A copycat killer causes havoc in Kingston</h6>
@@ -348,7 +342,7 @@
   <div class="section grey lighten-5">
     <div class="container">
       <div class="container">
-        <div class="row">
+        <div class="row" style="gap: 20px;">
 
           <div class="col s4 center-align hide-on-small-only">
             <div class="card">
@@ -378,7 +372,7 @@
   <!-- Mailing List Form -->
   <div class="section white">
     <div class="container">
-      <div class="row">
+      <div class="row" style="gap: 20px;">
         <div class="col s6">
           <h4>Join the Mailing List</h4>
 
@@ -389,14 +383,16 @@
         </div>
 
         <div class="col s6">
-          <form action="/" method="post" id="subscribe" name="subscribe" netlify>
-            <div class="input-field">
-              <input id="email" type="email" name="email" required>
+          <form action="/" class="row" style="gap: 1em;" method="post" id="subscribe" name="subscribe" netlify>
+            <div class="s12 input-field">
+              <input id="email" type="email" name="email" placeholder= " " required>
               <label for="email">Email</label>
             </div>
-            <button class="btn waves-effect waves-light btn-large green" type="submit">Subscribe
-            </button>
-          </form>
+						<div class="s12">
+	            <button class="btn waves-effect waves-light btn-large green" type="submit">Subscribe
+	            </button>
+						</div>
+					</form>
         </div>
 
       </div>
@@ -413,12 +409,15 @@
 
 <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
   
-    <script src="https://cdn.jsdelivr.net/npm/@materializecss/materialize@1.2.1/dist/js/materialize.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@materializecss/materialize@2.0.3-alpha/dist/js/materialize.min.js"></script>
 
   <script>
-$(document).ready(function(){
-      $('#book-carousel').carousel();
-    });
+		document.addEventListener('DOMContentLoaded', function() {
+			var elems = document.querySelectorAll('.carousel');
+			var instances = M.Carousel.init(elems, {
+				// specify options here
+			});
+		});
   </script>
   
 </body>
