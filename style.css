@@ -7,6 +7,7 @@ html {
   line-height: 1.66667;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: white;
 }
 
 textarea.materialize-textarea{
@@ -17,9 +18,14 @@ textarea.materialize-textarea{
 .input-field label {
   color: #4caf50;
 }
+
+.input-field input, .input-field textarea {
+  background-color: white;
+}
 /* label focus color */
 .input-field input[type=text]:focus + label {
   color: #4caf50;
+  background-color: white;
 }
 /* label underline focus color */
 .input-field input[type=text]:focus {
